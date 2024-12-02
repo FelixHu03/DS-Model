@@ -54,4 +54,4 @@ def predict_diabetes():
         return jsonify({'error': str(e)}), 400
 # Jalankan aplikasi Flask
 if __name__ == '__main__':
-    app.run(debug=True, port = 4999)
+    app.run(debug=True)
